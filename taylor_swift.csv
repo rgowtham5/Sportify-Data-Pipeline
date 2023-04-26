@@ -1,0 +1,38 @@
+Artist,Genres,Popularity
+Taylor Swift,pop,100
+
+Top Tracks
+Name,Album,Popularity
+Anti-Hero,Midnights,95
+All Of The Girls You Loved Before,All Of The Girls You Loved Before,92
+Lavender Haze,Midnights,90
+Blank Space,1989,81
+Cruel Summer,Lover,90
+Don’t Blame Me,reputation,90
+cardigan,folklore,89
+Style,1989,80
+Midnight Rain,Midnights,87
+Enchanted,Speak Now,80
+
+Related Artists
+Name,Genres,Popularity
+Demi Lovato,"pop, post-teen pop",80
+Selena Gomez,"pop, post-teen pop",86
+Alessia Cara,"canadian contemporary r&b, canadian pop, pop",75
+Harry Styles,pop,89
+Katy Perry,pop,85
+Camila Cabello,"dance pop, pop",81
+Halsey,"electropop, etherpop, indie poptimism, pop",83
+Niall Horan,pop,78
+Meghan Trainor,"hip pop, pop",81
+Fifth Harmony,"girl group, pop, talent show",70
+Selena Gomez & The Scene,pop,70
+Troye Sivan,"australian pop, pop, viral pop",75
+One Direction,"boy band, pop, post-teen pop, talent show",86
+Jonas Brothers,"boy band, pop",77
+5 Seconds of Summer,"boy band, pop",79
+Ariana Grande,pop,90
+The 1975,"modern alternative rock, modern rock, pop, rock",80
+Louis Tomlinson,pop,70
+Little Mix,"girl group, pop, talent show, uk pop",76
+Sabrina Carpenter,pop,79
