@@ -1,0 +1,38 @@
+Artist,Genres,Popularity,Followers,URL
+Taylor Swift,pop,100,72646715,https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02
+
+Top Tracks
+Name,Album,Popularity,Danceability,Energy,Speechiness,Acousticness,Instrumentalness
+Anti-Hero,Midnights,95,0.637,0.643,0.0519,0.13,1.8e-06
+All Of The Girls You Loved Before,All Of The Girls You Loved Before,92,0.718,0.467,0.0398,0.707,6.92e-05
+Lavender Haze,Midnights,90,0.733,0.436,0.08,0.258,0.000573
+Blank Space,1989,81,0.753,0.678,0.0644,0.085,1.64e-06
+Cruel Summer,Lover,90,0.552,0.702,0.157,0.117,2.06e-05
+Don’t Blame Me,reputation,90,0.615,0.534,0.0386,0.106,1.76e-05
+cardigan,folklore,89,0.613,0.581,0.0424,0.537,0.000345
+Style,1989,80,0.598,0.786,0.0383,0.00253,0.0016
+Midnight Rain,Midnights,87,0.643,0.363,0.0767,0.69,5.17e-05
+Enchanted,Speak Now,80,0.455,0.623,0.0288,0.0739,0.000424
+
+Related Artists
+Name,Genres,Popularity,Related Popularity
+Demi Lovato,"pop, post-teen pop",80,80
+Selena Gomez,"pop, post-teen pop",86,86
+Alessia Cara,"canadian contemporary r&b, canadian pop, pop",75,75
+Harry Styles,pop,89,89
+Katy Perry,pop,85,85
+Camila Cabello,"dance pop, pop",81,81
+Halsey,"electropop, etherpop, indie poptimism, pop",83,83
+Niall Horan,pop,78,78
+Meghan Trainor,"hip pop, pop",81,81
+Fifth Harmony,"girl group, pop, talent show",70,70
+Selena Gomez & The Scene,pop,70,70
+Troye Sivan,"australian pop, pop, viral pop",75,75
+One Direction,"boy band, pop, post-teen pop, talent show",86,86
+Jonas Brothers,"boy band, pop",77,77
+5 Seconds of Summer,"boy band, pop",79,79
+Ariana Grande,pop,90,90
+The 1975,"modern alternative rock, modern rock, pop, rock",80,80
+Louis Tomlinson,pop,70,70
+Little Mix,"girl group, pop, talent show, uk pop",76,76
+Sabrina Carpenter,pop,79,79
