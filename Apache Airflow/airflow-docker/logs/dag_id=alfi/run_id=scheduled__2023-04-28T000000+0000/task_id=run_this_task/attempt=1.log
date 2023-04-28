@@ -1,0 +1,24 @@
+[2023-04-28T12:53:51.717+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: alfi.run_this_task scheduled__2023-04-28T00:00:00+00:00 [queued]>
+[2023-04-28T12:53:51.726+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: alfi.run_this_task scheduled__2023-04-28T00:00:00+00:00 [queued]>
+[2023-04-28T12:53:51.727+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-28T12:53:51.731+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2023-04-28T12:53:51.732+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-28T12:53:51.758+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): run_this_task> on 2023-04-28 00:00:00+00:00
+[2023-04-28T12:53:51.762+0000] {standard_task_runner.py:55} INFO - Started process 3097 to run task
+[2023-04-28T12:53:51.765+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'alfi', 'run_this_task', 'scheduled__2023-04-28T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/my_test_dag.py', '--cfg-path', '/tmp/tmpv8zggcah']
+[2023-04-28T12:53:51.766+0000] {standard_task_runner.py:83} INFO - Job 8: Subtask run_this_task
+[2023-04-28T12:53:51.831+0000] {task_command.py:388} INFO - Running <TaskInstance: alfi.run_this_task scheduled__2023-04-28T00:00:00+00:00 [running]> on host 6cc0522fbd3b
+[2023-04-28T12:53:51.893+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Caffeinated Quantum Squadron
+AIRFLOW_CTX_DAG_ID=alfi
+AIRFLOW_CTX_TASK_ID=run_this_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-28T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-28T00:00:00+00:00
+[2023-04-28T12:53:51.894+0000] {logging_mixin.py:137} INFO - I am coming first
+[2023-04-28T12:53:51.894+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-04-28T12:53:51.902+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=alfi, task_id=run_this_task, execution_date=20230428T000000, start_date=20230428T125351, end_date=20230428T125351
+[2023-04-28T12:53:51.939+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-04-28T12:53:51.964+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

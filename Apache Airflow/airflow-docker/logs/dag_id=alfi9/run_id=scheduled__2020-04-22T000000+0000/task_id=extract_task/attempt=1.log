@@ -1,0 +1,23 @@
+[2023-04-28T13:37:40.262+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: alfi9.extract_task scheduled__2020-04-22T00:00:00+00:00 [queued]>
+[2023-04-28T13:37:40.271+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: alfi9.extract_task scheduled__2020-04-22T00:00:00+00:00 [queued]>
+[2023-04-28T13:37:40.271+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-28T13:37:40.272+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2023-04-28T13:37:40.272+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-28T13:37:40.286+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): extract_task> on 2020-04-22 00:00:00+00:00
+[2023-04-28T13:37:40.290+0000] {standard_task_runner.py:55} INFO - Started process 8589 to run task
+[2023-04-28T13:37:40.292+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'alfi9', 'extract_task', 'scheduled__2020-04-22T00:00:00+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/my_test_dag.py', '--cfg-path', '/tmp/tmpagga0wvk']
+[2023-04-28T13:37:40.293+0000] {standard_task_runner.py:83} INFO - Job 39: Subtask extract_task
+[2023-04-28T13:37:40.346+0000] {task_command.py:388} INFO - Running <TaskInstance: alfi9.extract_task scheduled__2020-04-22T00:00:00+00:00 [running]> on host 6cc0522fbd3b
+[2023-04-28T13:37:40.401+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Caffeinated Quantum Squadron
+AIRFLOW_CTX_DAG_ID=alfi9
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2020-04-22T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-04-22T00:00:00+00:00
+[2023-04-28T13:37:42.264+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-04-28T13:37:42.272+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=alfi9, task_id=extract_task, execution_date=20200422T000000, start_date=20230428T133740, end_date=20230428T133742
+[2023-04-28T13:37:42.312+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-04-28T13:37:42.329+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check
